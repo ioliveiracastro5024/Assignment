@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="description" content="This is site is about css and html.">
+    <meta name="keywords" content="html,css,coding,web,development">
+    <title>My Website</title>
+</head>
+<body>
+    <header>
+        <img src="images/image1.jpg">
+        <h1>My Music Space</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <h2>Contact us</h2>
+        <form name="contact" id="myform" autocomplete="on">
+            <fieldset>
+               <legend>Personal Information</legend>
+               <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="employment-status">Employment Status:</label>
+                <select id="employment-status" name="employment-status" required>
+                    <option value="">Select Option</option>
+                    <option value="Student">Student</option>
+                    <option value="Employed Full-time">Employed Full-time</option>
+                    <option value="Employed Part-time">Employed Part-time</option>
+                    <option value="Retired">Retired</option>
+                    <option value="Other">Other</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>How did you hear about our site?</legend>
+                <label for="social-media">Social Media</label>
+                <input type="radio" id="Social Media" name="how-heard" value="Social Media" required>
+                <label for="friend">Friend</label>
+                <input type="radio" id="friend" name="how-heard" value="Friend" required>
+                <label for="search-engine">Search Engine</label>
+                <input type="radio" id="search-engine" name="how-heard" value="Search Engine" required>
+                <label for="other">Other</label>
+                <input type="radio" id="other" name="how-heard" value="Other" required>
+            </fieldset>
+         
+            <fieldset>
+                <legend>Tell Us what you think!</legend>
+                <label for="coments">Comments</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Enter your comments here"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Submit</legend>
+                <input type="checkbox" id="not-robot" name="not-robot" required>
+                <label for="not-robot">I am not a robot.</label>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+    </main>
+    <aside>
+        <h2>My List</h2>
+        <ul>
+            <li>Music 1</li>
+            <li>Music 2</li>
+            <li>Music 3</li>
+    </aside>
+    <footer><p>&copy; 2023 Isabella Oliveira Castro 8865024</p></footer>
+    
+</body>
+</html>

@@ -1,0 +1,201 @@
+body{
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 5px;
+    border: 2px solid purple;
+    font: normal normal normal 12px/1.5 Georgia, serif
+}
+
+header, nav, footer{
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid purple;
+    height: 10vh;
+
+}
+
+header img{
+    width: 70px;
+    height: auto;
+    margin-right: 15px;
+}
+
+header {
+    display: flex;
+    align-items: left;
+    background-color: violet;
+    font: normal normal normal 15px/1.5 Georgia, serif;
+    line-height: 50%;
+}
+
+
+main{
+    height: 110vh;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid purple;
+    width: 65%;
+    float: left;
+}
+
+main h2{
+    margin: 5px;
+    padding: 5px;
+    width: 65%;
+    text-align: center;   
+}
+
+main img{
+    max-width: 60%;
+    height: auto;
+    width: auto;
+    border: 10px solid pink;
+    
+}
+
+iframe{
+    width: 1.6;
+    height: 1.6;
+    border: 10px solid pink;
+}
+
+aside{
+    height: 110vh;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid purple;
+    width: 30%;
+    float: right;
+}
+
+aside h2{
+    margin: 5px;
+    padding: 5px;
+    width: 60%;
+    text-align: center;
+}
+
+aside ul {
+    list-style: none;
+    line-height: 20px;
+}
+
+footer{
+    background-color: violet;
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+    clear: both;
+}
+
+nav {
+    text-align: right;
+    padding: 10px;
+    line-height: 10vh;
+}
+
+nav a{
+    text-decoration: none;
+    border: 1px solid purple;
+    padding: 2px;
+    margin: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(149, 99, 196);
+}
+
+nav a:hover{
+    color: white;
+    background-color: blueviolet;
+}
+
+select, input, textarea{
+    display:block;
+    width: 30%;
+    margin: 2px;
+}
+
+input[type=radio],[type=checkbox]{
+    display: inline;
+    width: 5%;
+}
+input[type=submit], input[type=reset] {
+    display:inline;
+    background-color: palevioletred;
+}
+
+label, legend{
+    display: block;
+    margin-bottom: 2px;
+    color:blueviolet;
+    font-weight: bolder;
+}
+
+fieldset{
+    border:1px solid purple;
+    padding: 5px;
+    margin-bottom: 2px;
+    background-color: pink;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 98%;
+}
+
+legend{
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+    width: 100%; 
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 5px;
+    border: 2px solid purple;
+    font: normal normal normal 12px/15px georgia serif;
+    }
+    main{
+        width: 98%;
+        float:none;
+        margin: 5px;
+        padding: 5px;
+        
+    }
+    aside{
+        width:98%;
+        float:none;
+        margin: 5px;
+        padding: 5px;
+    }
+    header{
+        background-color: violet;
+    }
+  }
+  
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: pink;
+    }
+    main{
+        width: 98%;
+        float:none;
+        margin: 5px;
+        padding: 5px;
+        
+    }
+    aside{
+        width:98%;
+        float:none;
+        margin: 5px;
+        padding: 5px;
+    }
+    header{
+        background-color: burlywood;
+    }
+  }
